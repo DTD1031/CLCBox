@@ -15,6 +15,7 @@
 		6B2C2343203EB52F00745B08 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2C2342203EB52F00745B08 /* MainViewController.m */; };
 		6B2C2347203EB6E300745B08 /* CBXXmlParsingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2C2346203EB6E300745B08 /* CBXXmlParsingTool.m */; };
 		6B2C2349203EBACD00745B08 /* exp.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6B2C2348203EBACD00745B08 /* exp.xml */; };
+		6B2C234C2040001400745B08 /* CBXXmlModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2C234B2040001400745B08 /* CBXXmlModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		6B2C2345203EB6E300745B08 /* CBXXmlParsingTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBXXmlParsingTool.h; sourceTree = "<group>"; };
 		6B2C2346203EB6E300745B08 /* CBXXmlParsingTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBXXmlParsingTool.m; sourceTree = "<group>"; };
 		6B2C2348203EBACD00745B08 /* exp.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = exp.xml; sourceTree = "<group>"; };
+		6B2C234A2040001400745B08 /* CBXXmlModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBXXmlModel.h; sourceTree = "<group>"; };
+		6B2C234B2040001400745B08 /* CBXXmlModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBXXmlModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 			children = (
 				6B2C2345203EB6E300745B08 /* CBXXmlParsingTool.h */,
 				6B2C2346203EB6E300745B08 /* CBXXmlParsingTool.m */,
+				6B2C234A2040001400745B08 /* CBXXmlModel.h */,
+				6B2C234B2040001400745B08 /* CBXXmlModel.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -169,6 +174,7 @@
 			files = (
 				6B2C2337203EB4B800745B08 /* main.m in Sources */,
 				6B2C2343203EB52F00745B08 /* MainViewController.m in Sources */,
+				6B2C234C2040001400745B08 /* CBXXmlModel.m in Sources */,
 				6B2C2347203EB6E300745B08 /* CBXXmlParsingTool.m in Sources */,
 				6B2C2329203EB4B800745B08 /* AppDelegate.m in Sources */,
 			);

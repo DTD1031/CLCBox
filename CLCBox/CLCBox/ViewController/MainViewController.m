@@ -31,7 +31,7 @@
     NSLog(@"\n--------------\
           \n %@ \n \
           ---------------",xmlString);
-    [[CBXXmlParsingTool tool] parsingXML:xmlString];
+    [[[CBXXmlParsingTool alloc] init] parsingXML:xmlString];
 }
 
 - (void)didReceiveMemoryWarning {

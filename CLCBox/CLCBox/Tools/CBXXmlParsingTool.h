@@ -9,8 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface CBXXmlParsingTool : NSObject
-
-+ (instancetype)tool;
 - (NSDictionary *)parsingXML:(NSString *)xmlString;
 
 @end

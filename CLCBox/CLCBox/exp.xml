@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
-<note>
-    <to>Tove</to>
+<note><to>Tove</to>
     <from>Jani</from>
     <heading>Reminder</heading>
+    <copyTo>
+        <person1>P1</person1>
+        <person2>P2</person2>
+        <person3>P3</person3>
+    </copyTo>
     <body>Don't forget me this weekend!</body>
 </note>
