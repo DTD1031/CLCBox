@@ -16,6 +16,9 @@
 		6B2C2347203EB6E300745B08 /* CBXXmlParsingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2C2346203EB6E300745B08 /* CBXXmlParsingTool.m */; };
 		6B2C2349203EBACD00745B08 /* exp.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6B2C2348203EBACD00745B08 /* exp.xml */; };
 		6B2C234C2040001400745B08 /* CBXXmlModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2C234B2040001400745B08 /* CBXXmlModel.m */; };
+		6B2C23532040F41800745B08 /* NSString+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2C23522040F41800745B08 /* NSString+JSON.m */; };
+		6B2C23572040F6ED00745B08 /* json_exp.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B2C23562040F6ED00745B08 /* json_exp.json */; };
+		6B2C235A20410B6A00745B08 /* MainViewController+ViewCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2C235920410B6A00745B08 /* MainViewController+ViewCreator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,11 @@
 		6B2C2348203EBACD00745B08 /* exp.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = exp.xml; sourceTree = "<group>"; };
 		6B2C234A2040001400745B08 /* CBXXmlModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBXXmlModel.h; sourceTree = "<group>"; };
 		6B2C234B2040001400745B08 /* CBXXmlModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBXXmlModel.m; sourceTree = "<group>"; };
+		6B2C23512040F41800745B08 /* NSString+JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JSON.h"; sourceTree = "<group>"; };
+		6B2C23522040F41800745B08 /* NSString+JSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSON.m"; sourceTree = "<group>"; };
+		6B2C23562040F6ED00745B08 /* json_exp.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = json_exp.json; sourceTree = "<group>"; };
+		6B2C235820410B6A00745B08 /* MainViewController+ViewCreator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MainViewController+ViewCreator.h"; sourceTree = "<group>"; };
+		6B2C235920410B6A00745B08 /* MainViewController+ViewCreator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MainViewController+ViewCreator.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,7 @@
 				6B2C2335203EB4B800745B08 /* Info.plist */,
 				6B2C2336203EB4B800745B08 /* main.m */,
 				6B2C2348203EBACD00745B08 /* exp.xml */,
+				6B2C23562040F6ED00745B08 /* json_exp.json */,
 			);
 			path = CLCBox;
 			sourceTree = "<group>";
@@ -85,6 +94,8 @@
 			children = (
 				6B2C2341203EB52F00745B08 /* MainViewController.h */,
 				6B2C2342203EB52F00745B08 /* MainViewController.m */,
+				6B2C235820410B6A00745B08 /* MainViewController+ViewCreator.h */,
+				6B2C235920410B6A00745B08 /* MainViewController+ViewCreator.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -94,6 +105,8 @@
 			children = (
 				6B2C2345203EB6E300745B08 /* CBXXmlParsingTool.h */,
 				6B2C2346203EB6E300745B08 /* CBXXmlParsingTool.m */,
+				6B2C23512040F41800745B08 /* NSString+JSON.h */,
+				6B2C23522040F41800745B08 /* NSString+JSON.m */,
 				6B2C234A2040001400745B08 /* CBXXmlModel.h */,
 				6B2C234B2040001400745B08 /* CBXXmlModel.m */,
 			);
@@ -160,6 +173,7 @@
 			files = (
 				6B2C2334203EB4B800745B08 /* LaunchScreen.storyboard in Resources */,
 				6B2C2331203EB4B800745B08 /* Assets.xcassets in Resources */,
+				6B2C23572040F6ED00745B08 /* json_exp.json in Resources */,
 				6B2C232F203EB4B800745B08 /* Main.storyboard in Resources */,
 				6B2C2349203EBACD00745B08 /* exp.xml in Resources */,
 			);
@@ -173,10 +187,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B2C2337203EB4B800745B08 /* main.m in Sources */,
+				6B2C23532040F41800745B08 /* NSString+JSON.m in Sources */,
 				6B2C2343203EB52F00745B08 /* MainViewController.m in Sources */,
 				6B2C234C2040001400745B08 /* CBXXmlModel.m in Sources */,
 				6B2C2347203EB6E300745B08 /* CBXXmlParsingTool.m in Sources */,
 				6B2C2329203EB4B800745B08 /* AppDelegate.m in Sources */,
+				6B2C235A20410B6A00745B08 /* MainViewController+ViewCreator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

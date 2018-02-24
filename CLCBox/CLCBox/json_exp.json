@@ -1,0 +1,17 @@
+[
+    {
+        "num":3,
+        "items":["aaa","bbb","ccc"],
+        "type":"1"
+    },
+    {
+        "num":2,
+        "items":["111","222"],
+        "type":"2"
+    },
+    {
+        "num":4,
+        "items":["aaa","bbb","ccc","ddd"],
+        "type":"3"
+    }
+]

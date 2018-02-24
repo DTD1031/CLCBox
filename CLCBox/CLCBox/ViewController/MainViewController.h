@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface MainViewController : UIViewController
+typedef enum : NSUInteger {
+    ViewTypeTable = 0,
+    ViewTypeItems = 1,
+    ViewTypeTicket = 2,
+    ViewTypePackage = 3,
+    ViewTypeList = 4
+} viewType;
+
 
 @end
